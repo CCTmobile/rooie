@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#E84A3C" />
+  <meta name="description" content="Rooie Renovations - Premium Renovation and Maintenance Services" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+  <title>ROOIE RENOVATIONS | Premium Home Excellence</title>
+
+  <!-- Preload fonts to avoid layout shift -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@500;700;900&display=swap"
+    rel="stylesheet">
+
+  <script type="module" crossorigin src="./assets/index-CfXtjikm.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C0bHZiny.css">
+
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+  <!-- Site Navigation -->
+  <header id="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="Roo.png" alt="Rooie" style="height: 32px; width: auto; filter: brightness(0) invert(1);">
+        ROOIE<span>RENOVATIOHOME</span>
+      </div>
+      <nav>
+        <a href="index.html">HOME</a>
+        <div class="nav-dropdown">
+          <a href="services.html">SERVICES ▾</a>
+          <div class="dropdown-menu">
+            <a href="renovate.html">RENOVATE</a>
+            <a href="build.html">BUILD</a>
+            <a href="transform.html">TRANSFORM</a>
+            <a href="maintain.html">MAINTAIN</a>
+            <a href="electricity.html">ELECTRICITY</a>
+            <a href="repairs.html">REPAIRS</a>
+          </div>
+        </div>
+        <a href="work.html">WORK</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="pwa-loader">
+    <div class="loader-content">
+      <img src="Roo.png" alt="Rooie" style="height: 60px; width: auto; margin-bottom: 1rem;">
+      <div class="loader-logo">ROOIE<span>RENOVATIONS</span></div>
+    </div>
+  </div>
+
+  <!-- PWA Install Prompt -->
+  <div id="pwa-install">
+    <div>Install Rooie App for better experience</div>
+    <button id="install-btn">Install Now</button>
+  </div>
+
+  <!-- Floating Contact Button -->
+  <a href="tel:+27123456789" class="fab-contact" title="Call Us Now">
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+    </svg>
+  </a>
+
+  <div id="static-hero"
+    style="height: 50vh; display: flex; align-items: center; justify-content: center; background: url('transform.jpg') center/cover no-repeat; position: relative;">
+    <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.6);"></div>
+    <div style="position: relative; text-align: center; padding: 2rem;">
+      <h1 class="hero-text-responsive" style="margin-bottom: 1rem;">PREMIUM HOME EXCELLENCE</h1>
+      <p class="text-responsive" style="max-width: 600px; margin: 0 auto; color: white;">Master craftsmanship and
+        uncompromising integrity across Gauteng.</p>
+    </div>
+  </div>
+
+  <div id="root"></div>
+
+  <!-- Main Content Sections -->
+  <main>
+    <section id="our-services" class="responsive-container" style="padding: 6rem 1.5rem;">
+      <h2 class="section-heading-responsive" style="text-align: center; margin-bottom: 4rem;">Our Expertise</h2>
+      <div class="responsive-grid">
+        <div class="card-responsive" style="border-top: 4px solid var(--accent); padding: 2.5rem 2rem;">
+          <h3
+            style="color: var(--accent); margin-bottom: 1rem; font-weight: 800; letter-spacing: 0.1em; font-size: 0.9rem;">
+            RENOVATIONS</h3>
+          <p class="text-responsive" style="margin-bottom: 2rem; font-size: 0.9rem;">Modernizing aged structures with
+            high-end finishes and structural integrity. Master suites to full-house remodels.</p>
+          <a href="renovate.html"
+            style="color: white; text-decoration: none; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.05em; border-bottom: 1px solid rgba(255,255,255,0.2);">VIEW
+            DETAILS →</a>
+        </div>
+
+        <div class="card-responsive" style="border-top: 4px solid var(--accent); padding: 2.5rem 2rem;">
+          <h3
+            style="color: var(--accent); margin-bottom: 1rem; font-weight: 800; letter-spacing: 0.1em; font-size: 0.9rem;">
+            BUILDING</h3>
+          <p class="text-responsive" style="margin-bottom: 2rem; font-size: 0.9rem;">Expert construction for residential
+            extensions, new structures, and custom projects executed with surgical precision.</p>
+          <a href="build.html"
+            style="color: white; text-decoration: none; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.05em; border-bottom: 1px solid rgba(255,255,255,0.2);">VIEW
+            DETAILS →</a>
+        </div>
+
+        <div class="card-responsive" style="border-top: 4px solid var(--accent); padding: 2.5rem 2rem;">
+          <h3
+            style="color: var(--accent); margin-bottom: 1rem; font-weight: 800; letter-spacing: 0.1em; font-size: 0.9rem;">
+            BATHROOMS & KITCHENS</h3>
+          <p class="text-responsive" style="margin-bottom: 2rem; font-size: 0.9rem;">High-end transformations of your
+            home's most vital spaces, utilizing premium fittings and designer aesthetics.</p>
+          <a href="transform.html"
+            style="color: white; text-decoration: none; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.05em; border-bottom: 1px solid rgba(255,255,255,0.2);">VIEW
+            DETAILS →</a>
+        </div>
+
+        <div class="card-responsive" style="border-top: 4px solid var(--accent); padding: 2.5rem 2rem;">
+          <h3
+            style="color: var(--accent); margin-bottom: 1rem; font-weight: 800; letter-spacing: 0.1em; font-size: 0.9rem;">
+            MAINTENANCE</h3>
+          <p class="text-responsive" style="margin-bottom: 2rem; font-size: 0.9rem;">Proactive property care and
+            scheduled maintenance programs for commercial and luxury residential properties.</p>
+          <a href="maintain.html"
+            style="color: white; text-decoration: none; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.05em; border-bottom: 1px solid rgba(255,255,255,0.2);">VIEW
+            DETAILS →</a>
+        </div>
+
+        <div class="card-responsive" style="border-top: 4px solid var(--accent); padding: 2.5rem 2rem;">
+          <h3
+            style="color: var(--accent); margin-bottom: 1rem; font-weight: 800; letter-spacing: 0.1em; font-size: 0.9rem;">
+            ELECTRICAL</h3>
+          <p class="text-responsive" style="margin-bottom: 2rem; font-size: 0.9rem;">Certified electrical solutions,
+            including complex installations, fault diagnosis, and COC compliance certification.</p>
+          <a href="electricity.html"
+            style="color: white; text-decoration: none; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.05em; border-bottom: 1px solid rgba(255,255,255,0.2);">VIEW
+            DETAILS →</a>
+        </div>
+
+        <div class="card-responsive" style="border-top: 4px solid var(--accent); padding: 2.5rem 2rem;">
+          <h3
+            style="color: var(--accent); margin-bottom: 1rem; font-weight: 800; letter-spacing: 0.1em; font-size: 0.9rem;">
+            REPAIRS</h3>
+          <p class="text-responsive" style="margin-bottom: 2rem; font-size: 0.9rem;">Fast-response general repairs and
+            specialized handyman services to maintain your property's pristine condition.</p>
+          <a href="repairs.html"
+            style="color: white; text-decoration: none; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.05em; border-bottom: 1px solid rgba(255,255,255,0.2);">VIEW
+            DETAILS →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="responsive-container"
+      style="background: rgba(255,255,255,0.02); border-top: 1px solid rgba(255,255,255,0.05);">
+      <div class="flex-responsive">
+        <div style="flex: 1;">
+          <h2 class="section-heading-responsive">The Rooie Standard</h2>
+          <p class="text-responsive" style="max-width: 800px;">With decades of combined experience in the Gauteng
+            region, Rooie Renovations has built a reputation for uncompromising quality and premium craftsmanship. We
+            don't just build or repair; we create spaces that inspire. Our commitment to integrity and excellence
+            ensures that every project, whether a minor repair or a major construction, receives the same meticulous
+            attention to detail.</p>
+          <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="contact.html" class="btn-responsive"
+              style="background: var(--coral); color: white; border: none; text-decoration: none;">REQUEST A FREE
+              QUOTE</a>
+            <a href="work.html" class="btn-responsive"
+              style="background: transparent; color: white; border: 1px solid white; text-decoration: none;">VIEW OUR
+              PORTFOLIO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer
+    style="background: var(--deep-black); padding: 4rem 2rem; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
+    <div class="responsive-container">
+      <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem;">
+        <img src="Roo.png" alt="Rooie"
+          style="height: 48px; width: auto; margin-bottom: 1rem; filter: brightness(0) invert(1);">
+        <div class="loader-logo" style="font-family: var(--font-heading); font-weight: 900; letter-spacing: -0.05em;">
+          ROOIE<span style="color: var(--accent);">RENOVATIOHOME</span></div>
+      </div>
+      <p class="text-responsive" style="font-size: 0.8rem; margin-bottom: 2rem;">Premium Construction & Home Solutions
+        in Gauteng</p>
+      <div style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
+        <a href="mailto:info@rooie.co.za"
+          style="color: white; text-decoration: none; font-size: 0.9rem;">info@rooie.co.za</a>
+        <a href="tel:+27123456789" style="color: white; text-decoration: none; font-size: 0.9rem;">+27 61 705 7485</a>
+      </div>
+      <p style="color: #666; font-size: 0.7rem; letter-spacing: 0.1em;">© 2026 ROOIE RENOVATIONS. ALL RIGHTS RESERVED.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Service Worker Registration
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => console.log('SW registered!', reg))
+          .catch(err => console.log('SW failed:', err));
+      });
+    }
+
+    // PWA Install Prompt Logic
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      document.getElementById('pwa-install').style.display = 'block';
+    });
+
+    document.getElementById('install-btn').addEventListener('click', () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === 'accepted') {
+            console.log('User accepted the install prompt');
+          }
+          document.getElementById('pwa-install').style.display = 'none';
+          deferredPrompt = null;
+        });
+      }
+    });
+
+    // Hide loader once React app is ready (simplified check)
+    const observer = new MutationObserver((mutations) => {
+      const root = document.getElementById('root');
+      if (root.children.length > 0) {
+        document.body.classList.add('app-ready');
+        document.getElementById('pwa-loader').style.opacity = '0';
+        setTimeout(() => {
+          document.getElementById('pwa-loader').style.display = 'none';
+          // Initialize Slider after app loads
+          initHeroSlider();
+        }, 500);
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(document.getElementById('root'), {
+      childList: true
+    });
+
+    // ==========================================
+    // HERO SLIDER LOGIC (Injected)
+    // ==========================================
+    function initHeroSlider() {
+      const slides = [
+        { text: "RENOVATE", img: "./renovate.jpg" },
+        { text: "BUILD", img: "./build.jpg" },
+        { text: "TRANSFORM", img: "./transform.jpg" },
+        { text: "MAINTAIN", img: "./maintain.jpg" },
+        { text: "ELECTRICITY", img: "./electricity.jpg" },
+        { text: "REPAIRS", img: "./repairs.jpg" }
+      ];
+
+      // Try to find the hero text element
+      const heroSection = document.getElementById('hero') || document.querySelector('section:first-of-type');
+      if (!heroSection) return;
+
+      const textElement = heroSection.querySelector('.hero-text') || heroSection.querySelector('h1');
+      const imgElement = heroSection.querySelector('img');
+
+      if (!textElement || !imgElement) return;
+
+      // Apply responsive classes to ensure animations and styling work
+      textElement.classList.add('hero-text-responsive');
+      imgElement.classList.add('hero-image-responsive');
+
+      let currentIndex = 0;
+      const intervalTime = 4000;
+
+      // Use classList for transitions instead of inline styles
+      // Make sure elements start in visible state
+
+      setInterval(() => {
+        // 1. Fade out via classes
+        textElement.classList.add('hero-text-hidden');
+        imgElement.classList.add('hero-image-hidden');
+
+        setTimeout(() => {
+          // 2. Change content
+          currentIndex = (currentIndex + 1) % slides.length;
+          textElement.textContent = slides[currentIndex].text;
+          imgElement.src = slides[currentIndex].img;
+
+          // 3. Fade in (remove hidden classes)
+          textElement.classList.remove('hero-text-hidden');
+          imgElement.classList.remove('hero-image-hidden');
+        }, 500); // Match this with CSS transition duration
+      }, intervalTime);
+    }
+    // ==========================================
+    // PERSISTENCE & ROUTING FIX
+    // ==========================================
+    function applyGlobalFixes() {
+      // 1. Ensure our header is always on top
+      const header = document.getElementById('site-header');
+      if (header && header.parentElement !== document.body) {
+        document.body.prepend(header);
+      }
+
+      // 1.5. Force small font size on any potential hero text
+      const heroH1 = document.querySelector('h1') || document.querySelector('.hero-text');
+      if (heroH1) {
+        heroH1.style.fontSize = 'clamp(0.5rem, 1.5vw, 2.5rem)';
+        heroH1.style.setProperty('font-size', 'clamp(0.5rem, 1.5vw, 2.5rem)', 'important');
+      }
+
+      // 2. Intercept all clicks to force routing to our .html files
+      document.addEventListener('click', (e) => {
+        const link = e.target.closest('a');
+        if (link && link.href && !link.href.includes('#') && !link.href.startsWith('tel:')) {
+          const url = new URL(link.href);
+          const path = url.pathname.toLowerCase();
+
+          // Mapping for common routes found in React
+          const routes = {
+            '/services': 'services.html',
+            '/renovate': 'renovate.html',
+            '/build': 'build.html',
+            '/transform': 'transform.html',
+            '/maintain': 'maintain.html',
+            '/electricity': 'electricity.html',
+            '/work': 'work.html',
+            '/contact': 'contact.html'
+          };
+
+          for (const [route, target] of Object.entries(routes)) {
+            if (path.endsWith(route)) {
+              e.preventDefault();
+              window.location.href = target;
+              return;
+            }
+          }
+        }
+      }, true);
+    }
+
+    // Run immediately and then periodically to handle React re-renders
+    applyGlobalFixes();
+    setInterval(applyGlobalFixes, 1000);
+  </script>
+</body>
+
+</html>
